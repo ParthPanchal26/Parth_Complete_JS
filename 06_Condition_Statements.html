@@ -1,0 +1,53 @@
+ <!-- Sometimes we want to validate user Input. -->
+ <!-- For ex; To avoid user to enter name in contact field. -->
+
+ <!-- For this conditions we use conditionl statements like -->
+ <!-- If... -->
+ <!-- If... Else -->
+ <!-- IF...Else... If -->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2>
+        The prompt Fucntion is not defined in node environment,<br>
+        It is defined in client-side not in server side,<br>
+        so whenever we use prompt in javascript file it will throw an error,<br>
+        but when we use it inside "script" tag in HTML it will show it in browser that is client-side<br>
+        so that it will execute perfectly without any errors.<br>
+
+        => Value entered in "Prompt" will always considered as String
+    </h2>
+
+    <script>
+        let age = prompt("Enter Your age For Driving Licence!!!");
+        age = Number.parseInt(age);
+        if(age <= 0){
+            alert("You are Alien!!!");
+        }
+        else if(age <= 10){
+            alert("I think You should buy bicycle!!!");
+        }
+        else if(age <= 19){
+            alert("Focus in Your Studies!!!");
+        }
+        else if(age <= 20){
+            alert("Why you First not goto Driving school!!!");
+        }
+        else{
+            alert("Maybe you have completed Driving School, Goto R.T.O.!!!");
+        }
+
+        // We can also use ternary operator to replace If...Else syntax
+        console.log("you can", (age<=18 ?"not drive!":"drive!"))
+    </script>
+</body>
+</html>

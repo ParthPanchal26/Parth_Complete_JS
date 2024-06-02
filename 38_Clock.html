@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <style>
+        body{
+            font-family: cursive;
+        }
+        div {
+            display: block;
+            margin: auto;
+            margin-top: 2rem;
+            width: 300px;
+        }
+
+        h2 {
+            text-align: center;
+            padding: 15px;
+            border: 2px solid black;
+            border-radius: 0.3rem;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            background-color: rgb(222, 255, 255);
+        }
+
+        li {
+            margin-top: -20px;
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            border: 2px solid black;
+            border-radius: 0.3rem;
+            border-top: 0;
+            padding: 15px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            background-color: rgb(188, 255, 234);
+        }
+
+        .timeEle {
+            font-size: 30px;
+            padding: 5px;
+            background-color: rgb(179, 255, 255);
+        }
+
+        .border{
+            margin-top: 0px;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            border-top: 2px solid black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Time Master JS</h2>
+        <li>
+            <span class="timeEle" id="h">h</span>
+            <span class="timeEle" id="m">:&nbsp;&nbsp;&nbsp;m&nbsp;&nbsp;&nbsp;:</span>
+            <span class="timeEle" id="s">s</span>
+        </li>
+        <li class="border">
+            <span class="timeEle" id="dd">d</span>
+            <span class="timeEle" id="mm">-&nbsp;&nbsp;&nbsp;m&nbsp;&nbsp;&nbsp;-</span>
+            <span class="timeEle" id="yy">y</span>
+        </li>
+    </div>
+    <script src="38_Clock.js"></script>
+</body>
+
+</html>

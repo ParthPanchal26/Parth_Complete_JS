@@ -1,0 +1,29 @@
+input{
+    width: 500px;
+    background-color: white;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+.task{
+    width: 500px;
+    background-color: white;
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.task:hover{
+    background-color: rgb(242, 242, 242);
+    font-size: 18px;
+}
+
+h4{
+    text-align: center;
+    transition: 0.3s;
+    font-family: cursive;
+}
