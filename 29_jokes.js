@@ -1,523 +1,120 @@
-let jokes = [`How do you know when the moon has had enough to eat ? When it’s full`,
-
-`What kind of music do planets like ? Neptunes`,
-
-`Why can’t you trust an atom ? Because they make up everything`,
-
-`What do you call a group of disorganized cats ? A cat - tastrophe`,
-
-`Why do bees have sticky hair ? Because they use honeycombs`,
-
-`Where do you learn to make banana splits ? At sundae school`,
-
-`How do you tell if a vampire is sick ? By how much he is coffin`,
-
-`Why are ghosts good cheerleaders ? Because they have a lot of spirit!`,
-
-`What happens to a frog’s car when it breaks down ? It gets toad away`,
-
-`Why did the witches’ team lose the baseball game ? Their bats flew away`,
-
-`Why did the school kids eat their homework ? Because their teacher told them it was a piece of cake`,
-
-`Why are hairdressers never late for work ? Because they know all the short cuts!`,
-
-`What is the difference between a teacher and a train ? One says, “Spit out your gum,” and the other says, “Choo choo choo!”`,
-
-`Why does Humpty Dumpty love autumn ? Because Humpty Dumpty had a great fall`,
-
-`How do you make a tissue dance ? Put a little boogie in it`,
-
-`What is the tallest building in the entire world ? The library, because it has so many stories`,
-
-`How do trees access the internet ? They log in`,
-
-`What do you get when you cross a fish and an elephant ? Swimming trunks`,
-
-`Why did the painting go to jail ? It was framed`,
-
-`Why did Cinderella get kicked off the soccer team ? Because she ran away from the ball`,
-
-`Why do we tell actors to break a leg ? Because every play has a cast`,
-
-`Helvetica and Times New Roman walk into a bar The bartender says, “We don’t serve your type”`,
-
-`Why wouldn’t the shrimp share his treasure ? Because he was a little shellfish`,
-
-`Why should you knock on the refrigerator before opening the door ? In case there is a salad dressing`,
-
-`When is a door not a door ? When it is ajar`,
-
-`What did the fish say when he swam into a wall ? Dam`,
-
-`Did you hear about the Italian chef who died ? He pasta - way
-man and woman laughing at jokes
-I sold my vacuum the other day All it was doing was collecting dust`,
-
-`What is Forrest Gump’s email password ? forrest`,
-
-`Did you hear about the fire in the shoe factory ? , soles were lost The police said some heels started it
-What’s the difference between a rabbit and a plum ? They’re both purple except for the rabbit`,
-
-`I like elephants Everything else is irrelephant
-What’s red and bad for your teeth ? A brick`,
-
-`Two guys walk into a bar The third guy ducks`,
-
-`Do you want to hear a construction joke ? Sorry, I’m still working on it`,
-
-`Why should you never trust stairs ? They’re always up to something`,
-
-`Why did the bullet end up losing his job ? He got fired`,
-
-`How do you measure a snake ? In inches—they don’t have feet`,
-
-`What does a house wear ? Address!`,
-
-`The first rule of the Alzheimer’s club is… Wait, where are we again ?`,
-
-`Did you hear about the cheese factory that exploded in France ? There was nothing left but de Brie`,
-
-`Where should you go in the room if you’re feeling cold ? The corner—they’re usually  degrees`,
-
-`What did the Buddhist ask the hot dog vendor ? “Make me one with everything”`,
-
-`Why don’t blind people skydive ? Because it scares their dogs
-What’s the difference between an oral thermometer and a rectal thermometer ? The taste, mostly`,
-
-`I stayed up all night and tried to figure out where the sun was Then it dawned on me`,
-
-`How much space will be freed in the EU after Brexit ? Approximately  GB`,
-
-`What do you call malware on a Kindle ? A bookworm`,
-
-`What did the tie say to the hat ? You go on ahead I’ll hang around`,
-
-`What do you call a musician with problems ? A trebled man`,
-
-`What washes up on very small beaches ? Micro - waves`,
-
-`What do you call a belt with a watch on it ? A waist of time`,
-
-`What did the grape do when it got stepped on ? It let out a little wine`,
-
-`What did the snail who was riding on the turtle’s back say ? Wheeeee!`,
-
-`What do you call a lazy kangaroo ? A pouch potato`,
-
-`What does a pig put on dry skin ? Oinkment
-man with a clown nose on a bench
-What do you call it when a snowman throws a tantrum ? A meltdown`,
-
-`How do you open a banana ? With a mon - key`,
-
-`Why do oranges wear sunscreen ? So they don’t peel`,
-
-`What did the mama tomato say to the baby tomato ? Catch up!`,
-
-`How did the pig get to the hogspital ? In a hambulance`,
-
-`Why does Humpty Dumpty love autumn ? Because he had a great fall`,
-
-`What do you call a pudgy psychic ? A four - chin teller`,
-
-`What do you get when you mix a cocker spaniel, a poodle, and a ghost ? A cocker - poodle boo`,
-
-`How do celebrities stay cool ? They have many fans`,
-
-`How much money does a pirate pay for corn ? A buccaneer`,
-
-`Where do young trees go to learn ? Elementree school`,
-
-`What do you call a hippie’s wife ? Mississippi`,
-
-`How can you tell it’s a dogwood tree ? By the bark
-What’s the stinkiest planet ? Poopiter`,
-
-`What did the full glass say to the empty glass ? You look drunk`,
-
-`Did you hear the one about the roof ? Never mind, it’s over your head
-What’s the best smelling insect ? A deodor - ant`,
-
-`Why did the can crusher quit his job ? Because it was soda pressing`,
-
-`What do you call someone who doesn’t like carbs ? Lack - Toast Intolerant`,
-
-`Why did the birthday boy wrap himself in paper ? He wanted to live in the present
-What’s a potato’s favorite form of transportation ? The gravy train`,
-
-`Why did the woman go on the date with the mushroom ? Because he was a fun - ghi`,
-
-`Why does Snoop Dogg use an umbrella ? Fo drizzle`,
-
-`Why is it impossible to starve in the desert ? Because of all the sand which is there!`,
-
-`Why can’t Chuck Norris use the internet ? Because he won’t submit`,
-
-`What do you call a dog that’s been run over by a steamroller ? Spot!`,
-
-`How does Lady Gaga like her steak ? (sing) Raw - raw - raw - ra - ah - aww`,
-
-`What did the cheese say when it looked in the mirror ? Haloumi!`,
-
-`Why did the developer go broke ? Because he used up all his cache`,
-
-`Why did the ghost go to rehab ? He was addicted to boos
-What’s orange and sounds like a parrot ? A carrot!
-girl laughing with hand in front of face
-What do you call a dinosaur with only one eye ? A Do - you - think - he - saw - us!`,
-
-`What do you call sad coffee ? Despresso`,
-
-`What do you give to a sick lemon ? Lemon aid!`,
-
-`Why are pirates called pirates ? Because they arrgh!`,
-
-`What don’t ants get sick ? They have anty - bodies`,
-
-`What type of candy is always late ? A chocolate`,
-
-`What sound does a nut make when it sneezes ? Ca - shew!`,
-
-`What do you call a Frenchman wearing sandals ? Phillipe Phillope`,
-
-`The past, present and future walked into a bar It was tense`,
-
-`What do you call someone who can’t stick with a diet ? A desserter`,
-
-`Which table fits in the fridge ? VegeTABLE`,
-
-`Hear about the new restaurant called Karma ? There’s no menu: You get what you deserve`,
-
-`Is Google male or female ? Female, because it doesn’t let you finish a sentence before making a suggestion`,
-
-`What do you call it when you walk into a cafe you’re sure you’ve been to before ? Déjà brew`,
-
-`How do you make holy water ? You boil the hell out of it`,
-
-`Are you a cheetah ? No, you lion!`,
-
-`Which bus never drove on any street ? The globus`,
-
-`Where does the General keep his armies ? In his sleevies!`,
-
-`How do you get Pikachu on a bus ? Poke him on`,
-
-`Why doesn’t the sun go to college ? Because it has a million degrees!`,
-
-`How did the hipster burn his mouth ? He ate the pizza before it was cool
-What’s red and moves up and down ? A tomato in an elevator`,
-
-`Why can’t you hear a pterodactyl go to the bathroom ? Because the “P” is silent!`,
-
-`How did the blonde die ice fishing ? She was hit by the zamboni`,
-
-`What do Alexander the Great and Winnie the Pooh have in common ? Same middle name`,
-
-`Why did the nurse need a red pen at work ? In case she needed to draw blood`,
-
-`What do you call a rooster staring at a pile of lettuce ? A chicken sees a salad`,
-
-`Why don’t Calculus majors throw house parties ? Because you should never drink and derive`,
-
-`Where are average things manufactured ? The satisfactory
-silly photo of cat in a tie next to an abacus
-What do you call a space magician ? A flying saucerer`,
-
-`What is a computer’s first sign of old age ? Loss of memory`,
-
-`What happened when the computer fell on the floor ? It slipped a disk`,
-
-`Why was there a bug in the computer ? It was looking for a byte to eat`,
-
-`What is a computer virus ? A terminal illness`,
-
-`What kind of doctor fixes broken websites ? A URLologist
-What’s a cat’s favorite color ? Purrr - ple`,
-
-`What do Martians like to drink ? Gravi - TEA`,
-
-`What is an astronaut’s favorite meal of the day ? Launch`,
-
-`Why did the alien go to the doctor ? He was looking a little green`,
-
-`What did Venus say to Saturn ? Give me a ring`,
-
-`What do you call ticks in space ? Luna - ticks`,
-
-`What do planets sing in a choir ? Nep - tunes`,
-
-`What doesn’t get any wetter no matter how much it rains ? The ocean`,
-
-`What is a gust of wind’s favorite color ? Blew`,
-
-`Where do happy lightning bolts live ? Cloud nine`,
-
-`What does a ghost wear to splash in puddles ? BOOOOOOOts`,
-
-`What’s an avocado’s favorite kind of music ? Guac and roll!`,
-
-`Why did the dinosaur go to the doctor ? He had an eye - saur`,
-
-`How did the dinosaur build her house ? With a dino - saw`,
-
-`What do you call a dinosaur that asks a lot of deep questions ? A philosiraptor`,
-
-`Why should you never ask a dinosaur to read a story if you are in a hurry ? Their tales are too long`,
-
-`What type of flower should you not give on Valentine’s Day ? Cauli - flower`,
-
-`What is an insect’s favorite sport ? Cricket`,
-
-`What is the difference between ignorance and apathy ? I don’t know, and I don’t care`,
-
-`How long does it take to make butter ? An echurnity!`,
-
-`When you look for something, why is it always in the last place you look ? Because when you find it, you stop looking`,
-
-`Where did the music teacher leave her keys ? In the piano!`,
-
-`Which superhero hits home runs ? Batman!`,
-
-`What fruit do twins love ? Pears!`,
-
-`Who eats snails ? People who don’t like fast food!`,
-
-`What is the strongest animal in the sea ? Mussels!`,
-
-`What kind of chicken is the funniest ? A comedi - hen!`,
-
-`What does a triceratops sit on ? Its tricera - bottom!
-two women walking and laughing
-What kind of pizza do dogs eat ? Pup - eroni pizza!`,
-
-`What do you call a famous turtle ? A shell - ebrity!`,
-
-`What cookie flavor do monkeys love ? Chocolate Chimp!`,
-
-`Why do hurricanes wear a monocle to see ? Because they have one eye!`,
-
-`What did the clock ask the watch ? Hour you doing ?`,
-
-`What’s the most famous fish ? A starfish!`,
-
-`What kind of fish loves going to battle ? A swordfish!`,
-
-`Where do birds invest their money ? The stork - market!
-What’s a pirate’s favorite county ? Arrrrgh - entina!`,
-
-`What do newborn kittens wear ? Dia - purrs!`,
-
-`Which holiday do cows enjoy most ? Moo - Year’s Day!`,
-
-`What do cheerleaders eat for breakfast ? Cheerios!`,
-
-`How do ice hockey players stay cool ? They sit next to the fans!`,
-
-`Why did the piano teacher need a ladder ? To reach the high notes!`,
-
-`What kind of fishing bait do librarians use ? Book - worms!`,
-
-`Which state is the smartest ? Alabama—it has four As and one B!`,
-
-`What kind of lights did Noah have on the ark ? Flood - lights!`,
-
-`What is the center of gravity ? The letter V!`,
-
-`What breaks when you speak ? Silence!`,
-
-`Why do you go to bed at night ? Because the bed won’t go to you!`,
-
-`Which month do trees dislike ? Sep - timber!`,
-
-`What do you call a man with a seagull on his head ? Cliff`,
-
-`Why did the clown always choose the red balloon ? Because they were pop - ular`,
-
-`Did you hear about the cheese factory that exploded in France ? There was de - Brie everywhere`,
-
-`How does a penguin build his house ? Igloos it together`,
-
-`A big moron and a little moron were standing on a cliff The big moron fell off Do you know why the other one didn’t ? Because he was a little more on`,
-
-`Where do pirates get their hooks ? Secondhand stores`,
-
-`What runs but never goes anywhere ? A refrigerator`,
-
-`What do you call a beehive without an exit ? Unbelievable`,
-
-`Why are skeletons so calm ? Because nothing gets under their skin`,
-
-`How does a rancher keep track of his cattle ? With a cow - culator`,
-
-`What do you call a bee that can’t make up its mind ? A Maybe`,
-
-`Why did the restaurant hire a pig ? He was good at bacon`,
-
-`Wanna hear a joke about paper ? Never mind—it’s tearable`,
-
-`What kind of shoes does a lazy person wear ? Loafers`,
-
-`How do you make a water bed bouncier ? Add spring water`,
-
-`Why did the manager bring a pencil and paper to the match ? They were hoping for a draw!`,
-
-`What did Dory order from McDonald’s ? The Big MacKerel!`,
-
-`When should you take a plum to dinner ? If you can’t find a date!`,
-
-`What do you call a wrestler who always comes in second place ? The Penultimate Warrior!
-man holding laughing emoji in front of his face
-Why couldn’t Captain America find Thor’s brother ? He was Low - key!`,
-
-`What do skateboarders do when they’re really talented ? They GoPro!`,
-
-`Where does a spy go to the toilet ? A gents!`,
-
-`What kind of exercise do lazy people do? Diddly - squats`,
-
-`Why did the M & M go to school ? He wanted to be a Smartie`,
-
-`You know what I saw today ? Everything I looked at`,
-
-`What are a shark’s two most favorite words ? Man overboard!`,
-
-`What do you call a singing laptop ? A Dell!`,
-
-`Why did the orange stop ? It ran out of juice!`,
-
-`What kind of ghost has the best hearing ? The eeriest`,
-
-`What lights up a soccer stadium ? A soccer match`,
-
-`When do computers overheat ? When they need to vent`,
-
-`How do rabbits travel ? By hareplanes`,
-
-`What did the yoga instructor say when her landlord tried to evict her ? Namaste`,
-
-`What do you call birds that stick together ? Vel - crows`,
-
-`What do sea monsters eat ? Fish and ships`,
-
-`What did the tomato say to the other tomato during a race ? Ketchup`,
-
-`How did the barber win the race ? He knew a shortcut`,
-
-`What do cows most like to read ? Cattle - logs`,
-
-`What do you call a pile of cats ? A meow - tain`,
-
-`What do you get when you drop a piano down a mine shaft ? A flat minor`,
-
-`What do you do with a sick boat ? Take it to the doc already`,
-
-`Why did the picture go to jail ? Because it was framed`,
-
-`What do horses say when they fall ? Help, I’ve fallen and I can’t giddy up`,
-
-`Did you hear about the man who got hit by the same bike every morning ? It was a vicious cycle`,
-
-`Why did the poor man stock up on yeast ? To make some dough`,
-
-`What does corn say when you give it a compliment ? Aw shucks!`,
-
-`Why were the fish’s grades so bad ? It was below sea level`,
-
-`Why did the invisible man turn down the job offer ? He couldn’t see himself doing it`,
-
-`What do lawyers wear to work ? Lawsuits`,
-
-`What’s the best way to burn  calories ? Leave the pizza in the oven`,
-
-`Why are the Irish so wealthy ? Because their capital is always Dublin`,
-
-`What has more lives than a cat ? A frog, because it croaks every night`,
-
-`What do you call a priest that becomes a lawyer ? A father -in -law
-What’s the best thing about Switzerland ? I don’t know, but the flag is a big plus
-woman laughing hard
-How do you drown a hipster ? Throw him in the mainstream`,
-
-`What sits at the bottom of the sea and twitches ? A nervous wreck`,
-
-`Why can’t you explain puns to kleptomaniacs ? They always take things literally`,
-
-`What does Charles Dickens keep in his spice rack ? The best of thymes, the worst of thymes`,
-
-`What did the Tin Man say when he got run over by a steamroller ? “Curses! Foil again!”`,
-
-`What did the bald man exclaim when he received a comb for a present ? Thanks— I’ll never part with it!`,
-
-`What’s orange and sounds like a carrot ? A parrot`,
-
-`What do you call a woman with one leg ? Eileen`,
-
-`What did the pirate say when he turned ? Aye matey`,
-
-`Why did the yogurt go to the art exhibition ? Because it was cultured`,
-
-`What do you call an apology written in dots and dashes ? Re - Morse code`,
-
-`Why is it annoying to eat next to basketball players ? They dribble all the time`,
-
-`What breed of dog can jump higher than buildings ? Any dog, because buildings can’t jump`,
-
-`How many times can you subtract  from ? Once The next time you would be subtracting  from `,
-
-`Why did it get so hot in the baseball stadium after the game ? All of the fans left`,
-
-`Why did the math textbook visit the guidance counselor ? It needed help figuring out its problems`,
-
-`Why can’t male ants sink ? They’re buoy - ant`,
-
-`Talk is cheap ? Have you ever talked to a lawyer ?`,
-
-`Why did the gym close down ? It just didn’t work out!`,
-
-`What type of sandals do frogs wear ? Open - toad!`,
-
-`What did the man get when he ran into a palm tree ? A facepalm`,
-
-`A teddy bear sits down at a restaurant The waiter asks, “Would you like anything ?” The bear responds, “No, I’m stuffed”`,
-
-`How do you mend a jack - o - lantern ? With a pumpkin patch`,
-
-`What did the right eye say to the left eye ? Between you and me, something smells!`,
-
-`Why does everyone invite ice cream to the party ? Because it’s so cool`,
-
-`What did the grape say to the silly peanut butter ? You’re nuts!`,
-
-`When do you need to climb the ladder ? To get to High School`,
-
-`Why was the cell phone wearing glasses ? It lost its contacts`,
-
-`People are always worried about their cell phones or microwaves spying on them Truth is, those are not the appliances you need to be concerned about It’s your Vacuum Cleaner that you need to be worried about – it’s been collecting dirt on you for years`,
-
-`What does a baby computer call its father ? Data!`,
-
-`What did the traffic light say to the traffic light ? Don’t look, I’m changing`,
-
-`Why did the Football Coach go to the bank ? To get his quarter back`,
-
-`What kind of tree fits in your hand ? A palm tree!`,
-
-`In which part of New York do cholesterol levels tend to be lowest ? Statin Island`,
-
-`What did the big flower say to the little flower ? Hey, bud!`,
-
-`Why did the pony have to gargle ? Because it was a little horse!`,
-
-`What musical instrument do you find in the bathroom ? A tuba toothpaste!`,
-
-`What does it take to make an octopus laugh ? Ten - tickles`,
-
-`What has four wheels and flies ? A garbage truck`,
-
-`Why do sharks live in salt water ? Because pepper water makes them sneeze`,
-
-`What do you call a bear with no teeth ? A gummy bear`];
+const jokes = [
+    "What do kids play when their mom is using the phone? Bored games.",
+    "What do you call an ant who fights crime? A vigilANTe!",
+    "Why are snails slow? Because they’re carrying a house on their back.",
+    "What’s the smartest insect? A spelling bee!",
+    "What does a storm cloud wear under his raincoat? Thunderwear.",
+    "What is fast, loud and crunchy? A rocket chip.",
+    "How does the ocean say hi? It waves!",
+    "What do you call a couple of chimpanzees sharing an Amazon account? PRIME-mates.",
+    "Why did the teddy bear say no to dessert? Because she was stuffed.",
+    "Why did the soccer player take so long to eat dinner? Because he thought he couldn’t use his hands.",
+    "Name the kind of tree you can hold in your hand? A palm tree!",
+    "What do birds give out on Halloween? Tweets.",
+    "What has ears but cannot hear? A cornfield.",
+    "What’s a cat’s favorite dessert? A bowl full of mice-cream.",
+    "Where did the music teacher leave her keys? In the piano!",
+    "What did the policeman say to his hungry stomach? “Freeze. You’re under a vest.”",
+    "What did the left eye say to the right eye? Between us, something smells!",
+    "What do you call a guy who’s really loud? Mike.",
+    "Why do birds fly south in the winter? It’s faster than walking!",
+    "What did the lava say to his girlfriend? “I lava you!”",
+    "Why did the student eat his homework? Because the teacher told him it was a piece of cake.",
+    "What did Yoda say when he saw himself in 4k? HDMI.",
+    "Which superhero hits home runs? Batman!",
+    "What’s Thanos’ favorite app on his phone? Snapchat.",
+    "Sandy’s mum has four kids; North, West, East. What is the name of the fourth child? Sandy, obviously!",
+    "What is a room with no walls? A mushroom.",
+    "Why did the blue jay get in trouble at school? For tweeting on a test!",
+    "What social events do spiders love to attend? Webbings.",
+    "What did one pickle say to the other? Dill with it.",
+    "What is brown, hairy and wears sunglasses? A coconut on vacation.",
+    "Why is a football stadium always cold? It has lots of fans!",
+    "What did one math book say to the other? “I’ve got so many problems.”",
+    "What did the Dalmatian say after lunch? That hit the spot!",
+    "What do you call two bananas on the floor? Slippers.",
+    "Why did the chicken cross the playground? To get to the other slide.",
+    "Why do ducks have feathers on their tails? To cover their butt quacks.",
+    "How does a vampire start a letter? “Tomb it may concern…”",
+    "A plane crashed in the jungle and every single person died. Who survived? Married couples.",
+    "What kind of math do birds love? Owl-gebra!",
+    "Why can’t you ever tell a joke around glass? It could crack up.",
+    "What do you call a Star Wars droid that takes the long way around? R2 detour.",
+    "How do you stop an astronaut’s baby from crying? You rocket.",
+    "Why did the scarecrow win a Nobel prize? Because she was outstanding in her field.",
+    "How do you know when a bike is thinking? You can see their wheels turning.",
+    "Why was 6 afraid of 7? Because 7,8,9.",
+    "What goes up and down but doesn’t move? The staircase.",
+    "What kind of shoes do frogs love? Open-toad!",
+    "How did the baby tell his mom he had a wet diaper? He sent her a pee-mail.",
+    "What is a witch’s favorite subject in school? Spelling.",
+    "What’s brown and sticky? A stick.",
+    "Why do ducks always pay with cash? Because they always have bills!",
+    "How did Benjamin Franklin feel holding his kite when he discovered electricity? Shocked!",
+    "When does a joke become a “dad” joke? When the punchline is a parent.",
+    "How much did the man sell his dead batteries for? Nothing, they were free of charge!",
+    "Where do most horses live? In neighhh-borhoods!",
+    "Why did the Daddy Rabbit go to the barber? He had a lot of little hares.",
+    "How do you make a lemon drop? Let it fall from the tree.",
+    "Why can’t you ever trust atoms? Because they make up everything.",
+    "Which planet loves to sing? Nep-tune!",
+    "What’s a private investigator’s favorite shoe? Sneak-ers.",
+    "What did the limestone say to the geologist? Don’t take me for granite!",
+    "If an electric train is traveling south at 10 miles per hour and the wind is blowing North at 10 miles per hour, which way does the smoke blow? Fooled you! Electric trains don’t blow smoke.",
+    "Why are basketball courts always wet? Because the players dribble.",
+    "How do billboards talk? Sign language.",
+    "What do you call a duck that gets good grades? A wise quacker.",
+    "What do you call a fish without an eye? A fsh.",
+    "What kind of keys are sweet? Cookies!",
+    "What board game does the sky love to play? Twister.",
+    "Why does a seagull fly over the sea? Because if it flew over the bay, it would be a baygull.",
+    "What do you call a tired bull? A bulldozer.",
+    "What do you call cheese that belongs to someone else? Nacho cheese!",
+    "Why are pizza jokes the worst? They’re too cheesy.",
+    "What kind of water cannot freeze? Hot water.",
+    "Why was the belt arrested? Because it was holding up some pants.",
+    "Why did the peanut get into a rocket? He wanted to be an astro-nut!",
+    "Did you hear the joke about the roof? Never mind, it would go over your head.",
+    "Why did the cookie go to the hospital? Because it was feeling a little crummy.",
+    "What did the ghost call his Mum and Dad? His transparents.",
+    "What fruit do twins love? Pears!",
+    "What time is it when people are throwing pieces of bread at your head? Time to duck.",
+    "Why was the baby strawberry crying? Because their parents were in a jam.",
+    "Why don’t you ever see giraffes in middle school? Because they’re all in high school.",
+    "How do bees brush their hair? With honeycombs!",
+    "What do you do if someone rolls their eyes at you? Roll them right back.",
+    "What did the Baby Corn say to the Mama Corn? “Where is Pop Corn?”",
+    "What gets wetter the more it dries? A towel.",
+    "Why won’t peanut butter tell you a secret? He’s afraid you’ll spread it!",
+    "What’s the difference between a car and a fish? You can tune a car but you can’t tuna fish.",
+    "What is worse than raining cats and dogs? Hailing taxis.",
+    "What do you call an old snowman? A glass of water.",
+    "Who eats snails? People who don’t like fast food!",
+    "What did the bathtub say to the toilet? “You look flushed!”",
+    "How much does it cost a pirate to get his ears pierced? A buck an ear.",
+    "What was a more useful invention than the first telephone? The second telephone.",
+    "Why did the banana visit the doctor? She wasn’t peeling well!",
+    "What’s a snake’s favorite subject in school? Hiss-tory.",
+    "How do you talk to a giant? Use big words.",
+    "What did the bald man say when he received a comb for his birthday? “I’ll never part with this!”",
+    "Why did the computer get sick? It caught a virus!",
+    "Why did the God of Thunder need to stretch his leg muscles so much as a kid? He was a little Thor.",
+    "What animal is always at a baseball game? A bat.",
+    "How can you tell if an ant is a boy or a girl? They’re all girls! If they were boys, they’d be uncles.",
+    "Why did the teacher have a sack full of birdseed? For her parrot-teacher conferences.",
+    "What kind of music do mummies listen to? Wrap music.",
+    "What falls in winter but never gets hurt? Snow.",
+    "How many months have 28 days? All of them!",
+    "Why was the broom late to school? It over-swept!",
+    "What kind of nut doesn’t like money? Cash ew.",
+    "What do you call a ghost’s true love? A ghoul-friend.",
+    "What’s white and can’t climb trees? A fridge.",
+    "What is the strongest animal in the sea? Mussels.",
+    "Why didn’t the lamp sink? It was too light.",
+    "What building in New York has the most stories? The public library.",
+    "What has three letters and starts with gas? A car.",
+    "How does the moon cut his hair? Eclipse it."
+]
 
 let random_Joke = jokes[Math.floor(Math.random() * jokes.length)];
 document.write(random_Joke);
